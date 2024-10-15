@@ -25,7 +25,7 @@ setup(
     packages=packages,
     package_dir={'': 'src'},
     install_requires=[
-        "requests~=2.28.1",
+        "requests>=2.28.1,<2.33.0",
         "mutagen~=1.46.0",
         "musicbrainzngs~=0.7.1",
         "jellyfish~=0.9.0",
